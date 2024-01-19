@@ -1,0 +1,41 @@
+body{
+    background: lightblue;
+}
+.A{
+    color: rgb(100,20,25);
+    background-color: gray;
+    width: auto;
+    height: 100;
+    border-radius: 45px;
+    text-align: center;
+}
+ul{
+    display: none;
+}
+ul a{
+    background: lightblue;
+    position: relative;
+    width: 20%;
+    height: 100;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    display:inline-block;
+    text-decoration: none;
+    color: black;
+}
+ul a:hover{
+    background: gray;
+    color: white;
+
+}
+li:hover ul{
+    display: block;
+}
+h1:hover{
+    background: red;
+    color: white;
+}
+ol a{
+    text-decoration: none;
+}
